@@ -2,7 +2,7 @@
 /* global L, carto */
 
 var map = L.map('map', {
-        minZoom: 5,
+        minZoom: 1,
         maxZoom: 6
     });
 
