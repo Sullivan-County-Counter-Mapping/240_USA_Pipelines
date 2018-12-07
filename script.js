@@ -24,10 +24,11 @@ var source = new carto.source.SQL('SELECT * FROM eia_pipelines_dissolved_240');
 // Create style for the data
 var style = new carto.style.CartoCSS(`
  #eia_pipelines_dissolved_240{
-  line-color: #1f6b6b;
+  line-color: #0c2a2a;
   line-width: 1;
-  line-opacity: 0.8;
+  line-opacity: 0.9;
 }
+`);
 `);
 
 // Add style to the data
